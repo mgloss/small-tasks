@@ -1,0 +1,36 @@
+Komplexní úlohy - zadani
+
+sportka_lepsi.py
+vytvořte si vlastní verzi sportky. 
+Vytvořte funkci, která vygeneruje 6 čísel v rozmezí 1 - 49 ( ke generování použijte knihovnu random, kterou musíte naimportovat - import random random.randrange(1, 49)
+Načtěte od uživatele 6 čísel pomocí funkce input() a načtené hodnoty uložte do pole
+vytvořte funkci, která přijímá jako parametry vylosovaná čísla a čísla vsazená. Funkce vrátí počet uhodnutých čísel. 
+Napište do konzole kolik čísel uživatel uhodl
+HINT: Neřeště validaci, že jsou čísla v rozmezí 1 - 49, ani duplicity
+
+
+vypocet_mzdy.py
+vytvořte si kalkulačku čisté mzdy
+od uživatele načtěte hrubou mzdu
+vypočtěte superhrubou mzdu, a čistou mzdu. Zde je návod jak počítat http://finexpert.e15.cz/jak-se-pocita-cista-mzda
+superhrubá mzda = hruba * 34 %
+pojištění = hrubá * 11 %
+počítejme, že uživatel má nárok na slevu na dani 2070 Kč
+
+Poté vypište uživateli tyto informace + napište, zdali je čistá mzda více než průměrná mzda v zemi (29320 CZK) (uvedená částka je hrubá :-), takže si ji musíte také převést na čistou => použijte funkce)
+
+
+salary_calculator.py
+Napište program, který po zadání čisté mzdy vypočítá hrubou mzdu, tedy mzdu o kterou si můžete říct na pohovoru :-)
+vycházejte z této rovnice HM = (ČM-2070)/0,689
+nezohledňujeme solidární daň :)
+
+
+
+loan_calculator.py
+Vytvořte si kalkulačku, která vypočítá kolik přeplatíte při “super výhodné” půjčce
+údaje k výpočtu (zdroj zaplo.cz :-))
+Zápůjční úroková sazba (ročně):    279.83%
+Program příjme od uživatele dvě čísla - první bude částka kterou si chce půjčit a druhé počet měsíců na splácení
+Program vypíše výslednou částku, co zákazník zaplatí a o kolik přeplatí zapůjčenou částku
+HINT: Použijte zjednodušený (nepřesný) výpočet, z ročního úroku z částky si vypočítejte měsíční úrok (výsledný úrok vydělím 12 = případně otázky směřujte na mě), dále měsíční splátku a z toho pak vytvořte přehled
